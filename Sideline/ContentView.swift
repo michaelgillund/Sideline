@@ -654,6 +654,7 @@ struct LeagueHeader: View {
 }
 
 struct GameViewModel: Identifiable {
+    
     let id = UUID()
     let event: Event
     let league: ESPN_League
